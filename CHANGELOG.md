@@ -6,6 +6,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+## [3.1.0] - 2025-12-11
+
+### Added
+- **Part 11 Enhanced: Spec-Driven Artifact Generation v3.1** - OpenSpec compatibility
+  - Delta management (ADDED/MODIFIED/REMOVED change tracking)
+  - Two-folder model (specs/ + changes/)
+  - Archive workflow for merging changes
+  - Scenario blocks for acceptance criteria
+  - AGENTS.md convention support (20+ AI coding tools)
+  - Multi-tool slash commands (/mas-proposal, /mas-apply, /mas-archive)
+- **Part 12: Design System Knowledge v2.7** - AI-assisted UI/UX generation
+  - 57 UI Styles (Glassmorphism, Minimalism, Brutalism, etc.)
+  - 96 Color Palettes (industry-specific)
+  - 56 Typography Pairings (Google Fonts ready)
+  - 98 UX Guidelines (best practices, anti-patterns)
+  - 8 Stack Guidelines (React, Next.js, Vue, etc.)
+
+### Changed
+- Spec-driven development now supports both Kiro (greenfield) and OpenSpec (brownfield) workflows
+- Feature comparison matrix with Kiro, OpenSpec, Spec Kit, and MAS v3.1
+
+---
+
 ## [3.0.0] - 2025-12-11
 
 ### Added
@@ -89,6 +112,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ---
 
+[3.1.0]: https://github.com/WiiLearn/mas-spec/compare/v3.0.0...v3.1.0
 [3.0.0]: https://github.com/WiiLearn/mas-spec/compare/v2.6.0...v3.0.0
 [2.6.0]: https://github.com/WiiLearn/mas-spec/compare/v2.5.0...v2.6.0
 [2.5.0]: https://github.com/WiiLearn/mas-spec/compare/v2.0.0...v2.5.0

@@ -1,7 +1,7 @@
 # MAS - Mermaid Abstract Syntax Specification
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![Version](https://img.shields.io/badge/version-3.0.0-blue.svg)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-3.1.0-blue.svg)](CHANGELOG.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **The formal specification for AI-native diagram generation using Mermaid syntax.**
@@ -67,7 +67,9 @@ MAS provides formal validation rules to ensure your diagrams are:
 
 | Version | Focus | Status | Quick Start |
 |---------|-------|--------|-------------|
-| **v3.0** | Spec-Driven Development | Draft | [Index](spec/v3.0/MAS-v3.0-INDEX.md) |
+| **v3.1** | Spec-Driven + Design System | Draft | [Spec-Driven](spec/v3.1/MAS-SpecDriven-v3.1.md) |
+| **v3.0** | Business-Technical Bridge | Draft | [Index](spec/v3.0/MAS-v3.0-INDEX.md) |
+| **v2.7** | Design System Knowledge | Stable | [Appendix](appendix/MAS-DesignSystemKnowledge-v2.7.md) |
 | **v2.6** | ASCII Wireframes | Stable | [Quick Start](spec/v2.6/MAS-v2.6-QuickStart.md) |
 | **v2.5** | UX & Business Diagrams | Stable | [Quick Start](spec/v2.5/MAS-v2.5-QuickStart.md) |
 | **v2.0** | Core Technical | Stable | [Index](spec/v2.0/MAS-v2.0-INDEX.md) |
@@ -79,13 +81,14 @@ MAS provides formal validation rules to ensure your diagrams are:
 ```
 mas-spec/
 ├── spec/
-│   ├── v3.0/          # Bridge Layer, Spec-Driven
+│   ├── v3.1/          # Spec-Driven + OpenSpec compatibility
+│   ├── v3.0/          # Bridge Layer, Traceability
 │   ├── v2.6/          # ASCII Wireframes
 │   ├── v2.5/          # UX & Business Diagrams
 │   ├── v2.0/          # Core Technical
 │   └── v1.0/          # Legacy (deprecated)
 ├── architecture/      # Service architecture docs
-├── appendix/          # Design system, roadmap
+├── appendix/          # Design system (v2.7), roadmap
 └── rfcs/              # Enhancement proposals
 ```
 
